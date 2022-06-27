@@ -1,0 +1,40 @@
+const icons = {
+  // Clear: '<i class="bi bi-sun-fill"></i>',
+  Clear: '<i class="bi bi-circle-fill"></i>',
+  Clouds: '<i class="bi bi-clouds-fill"></i>',
+  Mist: '<i class="bi bi-cloud-drizzle-fill"></i>',
+  Drizzle: '<i class="bi bi-cloud-drizzle-fill"></i>',
+  Atmosphere: '<i class="bi bi-cloud-drizzle-fill"></i>',
+  Fog: '<i class="bi bi-cloud-fog-fill"></i>',
+  Dust: '<i class="bi bi-wind"></i>',
+  Smoke: '<i class="bi bi-wind"></i>',
+  Tornado: '<i class="bi bi-wind"></i>',
+  Haze: '<i class="bi bi-cloud-haze-fill"></i>',
+  Sand: '<i class="bi bi-cloud-fog-fill"></i>',
+  Ash: '<i class="bi bi-cloud-fog-fill"></i>',
+  Squall: '<i class="bi bi-cloud-fog-fill"></i>',
+  Rain: '<i class="bi bi-cloud-rain-fill"></i>',
+  Thunderstorm: '<i class="bi bi-cloud-lightning-rain-fill"></i>',
+  Snow: '<i class="bi bi-snow2"></i>',
+};
+
+export const icons_classes = {
+  Clear: 'bi-circle-fill',
+  Clouds: 'bi-clouds-fill',
+  Mist: 'bi-cloud-drizzle-fill',
+  Drizzle: 'bi-cloud-drizzle-fill',
+  Atmosphere: 'bi-cloud-drizzle-fill',
+  Fog: 'bi-cloud-fog-fill',
+  Dust: 'bi-wind',
+  Smoke: 'bi-wind',
+  Tornado: 'bi-wind',
+  Haze: 'bi-cloud-haze-fill',
+  Sand: 'bi-cloud-fog-fill',
+  Ash: 'bi-cloud-fog-fill',
+  Squall: 'bi-cloud-fog-fill',
+  Rain: 'bi-cloud-rain-fill',
+  Thunderstorm: 'bi-cloud-lightning-rain-fill',
+  Snow: 'bi-snow2',
+};
+
+export default icons;
