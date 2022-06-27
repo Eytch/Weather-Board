@@ -60,17 +60,16 @@ body {
     url('/src/assets/Clouds.jpg');
 }
 
-.wp_Mist
-  .wp_Drizzle
-  .wp_Atmosphere
-  .wp_Atmosphere
-  .wp_Fog
-  .wp_Dust
-  .wp_Smoke
-  .wp_Sand
-  .wp_Ash
-  .wp_Squall
-  .wp_Haze {
+.wp_Mist,
+.wp_Drizzle,
+.wp_Atmosphere,
+.wp_Fog,
+.wp_Dust,
+.wp_Smoke,
+.wp_Sand,
+.wp_Ash,
+.wp_Squall,
+.wp_Haze {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.537),
