@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Board</title>
-  <script defer src="bundle16b9eced97a54f8b2946.js"></script></head>
+  <script defer src="bundledde6dcfbdc0f7160e8eb.js"></script></head>
   <body>
     <nav class="navbar">
       <svg
@@ -63,66 +63,119 @@
               Weather forecasts, now-casts and history in fast and elegant way.
             </h3>
             <form>
-              <input type="search" placeholder="SEARCH YOUR CITY" autofocus />
-              <button type="submit">Search</button>
+              <input
+                type="text"
+                placeholder="SEARCH YOUR CITY"
+                autofocus
+                autocomplete="off"
+                pattern="[A-Za-z]+"
+              />
+              <button class="searchBtn" type="submit">Search</button>
             </form>
           </div>
         </div>
         <div class="bottom">
           <div class="data">
             <div class="degree">
-              <h1 class="degree_text">14°</h1>
-              <p class="HighLow_text">H:14° L:7°</p>
+              <h1 class="degree_text"></h1>
+              <p class="HighLow_text"></p>
             </div>
           </div>
 
           <div class="weather_info">
-            <p class="city_name">London,GB</p>
+            <p class="city_name"></p>
             <div class="cond_det">
-              <p class="cond_name">Scattered Clouds</p>
-              <img
-                src="http://openweathermap.org/img/wn/03d@2x.png"
-                class="cond_icon"
-                alt="SNOW"
-              />
+              <p class="cond_name">
+                <i class="bi bi-snow2"></i>
+              </p>
             </div>
-            <p class="city_date">7:00 PM | Tuesday, 7 June</p>
+            <p class="city_date"></p>
             <p class="cond_alert">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                class="cond_alert_icon"
-                viewBox="0 0 16 16"
-              >
-                <g id="info" transform="translate(-0.42 -0.42)">
-                  <rect
-                    id="Rectangle_4"
-                    data-name="Rectangle 4"
-                    width="16"
-                    height="16"
-                    transform="translate(16.42 16.42) rotate(180)"
-                    fill="#fff"
-                    opacity="0"
-                  />
-                  <path
-                    id="Path_4"
-                    data-name="Path 4"
-                    d="M8.644,2a6.644,6.644,0,1,0,6.644,6.644A6.644,6.644,0,0,0,8.644,2Zm.664,9.3a.664.664,0,1,1-1.329,0V7.979a.664.664,0,1,1,1.329,0ZM8.644,6.65a.664.664,0,1,1,.664-.664A.664.664,0,0,1,8.644,6.65Z"
-                    transform="translate(-0.224 -0.224)"
-                    fill="#fff"
-                  />
-                </g>
-              </svg>
-              Yellow thunderstorm warning
+              <i class="bi bi-info-circle-fill cond_alert_icon"></i>
             </p>
           </div>
         </div>
       </section>
       <section class="rightSide">
-        <h3 class="headline">
-          Weather forecasts, now-casts and history in fast and elegant way.
-        </h3>
+        <div class="daily">
+          <h3 class="daily_title">Daily</h3>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+          <div class="day">
+            <p class="day_name"></p>
+            <i class="day_icon"></i>
+            <p class="day_hl"></p>
+          </div>
+        </div>
+        <div class="hourly">
+          <h3 class="hourly_title">Hourly</h3>
+          <div class="hourly_all"></div>
+        </div>
+        <div class="current">
+          <h3 class="current_title">Current</h3>
+          <div class="current_scroll">
+            <div class="current_det">
+              <p class="current_name">Feels like</p>
+              <p class="day_hl current_fl"></p>
+            </div>
+            <div class="current_det">
+              <p class="current_name">Humidity</p>
+              <p class="day_hl current_h"></p>
+            </div>
+            <div class="current_det chance_rain">
+              <p class="current_name">Rain Volume</p>
+              <p class="day_hl current_cor">0 hr</p>
+            </div>
+            <div class="current_det">
+              <p class="current_name">Sunrise</p>
+              <p class="day_hl current_sr"></p>
+            </div>
+            <div class="current_det">
+              <p class="current_name">Sunset</p>
+              <p class="day_hl current_ss"></p>
+            </div>
+            <div class="current_det">
+              <p class="current_name">visibilty</p>
+              <p class="day_hl current_v"></p>
+            </div>
+            <div class="current_det">
+              <p class="current_name">wind</p>
+              <p class="day_hl current_w"></p>
+            </div>
+            <div class="current_det">
+              <p class="current_name">pressure</p>
+              <p class="day_hl current_pre"></p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </body>
