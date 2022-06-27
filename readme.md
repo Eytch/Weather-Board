@@ -22,7 +22,7 @@ Build for production
 npm run build
 ```
 
-## [Live Demo 🚀](https://eytch.github.io/WeatherBoard/)
+## [Live Demo 🚀](https://eytch.github.io/Weather-Board/)
 
 ## Screenshots
 
