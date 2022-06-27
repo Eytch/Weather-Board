@@ -13,7 +13,7 @@ Install WeatherBoard with npm
 Start the server
 
 ```
-  npm run dev
+npm run dev
 ```
 
 Build for production
